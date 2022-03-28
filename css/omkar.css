@@ -1,0 +1,43 @@
+.profile{
+    /* top: 10%; */
+    float: left;
+    padding-top: 3ch;
+    padding-left: 7ch;
+}
+
+.date{
+    font-size: 42px;
+    color: red;
+    padding-left: 5px;
+    padding-top: 1ch;
+    /* margin-right: 2%; */
+    text-align: justify;
+    padding-right: 58%;
+    display: inline-block;
+}
+
+.about{
+    display: inline-block;
+    /* table-layout: inherit; */
+    padding-right: 30%;
+    text-align: justify;
+    /* width: 20em; */
+    width: 40%;
+    font-size: 135% ;
+    /* height: 150px; */
+}
+body{
+    background-color:aqua;
+}
+
+
+.skills{
+    display: inline;
+    padding: 0.5%;
+    width: 40px;
+}
+
+/* #edureka {
+display:inline-block;
+width: 30%;
+} */

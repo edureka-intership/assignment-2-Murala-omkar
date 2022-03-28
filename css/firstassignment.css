@@ -1,0 +1,192 @@
+body{
+    margin: auto;
+}
+body{
+    background-color: azure;
+}
+body{
+    color: #de8d14;
+}
+a{
+    text-decoration: none;
+}
+
+/*head footer */
+#header{
+    height: 60px;
+    background-color: rgb(122 105 90);
+}
+
+#webName{
+    float: left;
+    margin-left: 1%;
+    margin-top: -1%;
+    background-color: brown;
+}
+
+#slinks{
+    float: right;
+    /* margin-left: 2%; */
+    
+}
+
+.slogo{
+    height: 45px;
+    width: 50px;
+}
+
+/*search */
+#search{
+    height: 450px;
+    width: 100%;
+    /* background-image: url("https://png.pngtree.com/thumb_back/fh260/20170803/pngtree-Food-Menu-Fare-Meal-background-photo-869492.jpg"); */
+    background-image: url('../Assets/images/backgrounf.png');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#logo{
+    height:150px;
+    width:150px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin-left: 46%;
+    margin-top: 3%;
+    position: absolute;
+}
+
+#logo > span{
+    margin-left: 18%;
+    margin-top: 14%;
+    position: absolute;
+    font-size: 98px;
+}
+#tagline{
+    margin-left: 37%;
+    margin-top: 13%;
+    position: absolute;
+    font-size: 53px;
+    font-weight: bold;
+    color: white;
+}
+.dropdown{
+    height: 60px;
+    width: 54%;
+    margin-left: 27%;
+    margin-top: 18%;
+    position: absolute;
+    /* border: 2px solid red; */
+}
+select{
+    height: 60px;
+    width: 35%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.restselect{
+    width: 55%;
+}
+
+/*quick search */
+#quicksearch{
+    height: 500px;
+    width: 91%;
+    margin-left: 4%;
+    margin-top: 35%;
+    margin-bottom: 8%; 
+    /* border: 6px solid gold; */
+    /* position: bottom; */
+    /* background-color:; */
+    background-color: azure;
+    /* background-image: url(); */
+}
+
+#quickheading{
+    font-size: 30px;
+    color: darkgoldenrod;
+    line-height: 2;
+    margin-left: 5.5%;
+}
+
+#quicksubheading{
+    font-size: 20px;
+    color: green;
+    display: block;
+    font-family: sans-serif;
+    margin-left: 5.5%;
+}
+
+.tilecontainer{
+    height: 180px;
+    width: 26%;
+    border: 2px solid pink;
+    box-shadow: 10px 10px 30px black;
+    display: inline-block;
+    margin-left: 5.5%;
+    margin-top: 1%;
+}
+.tileComponent1{
+    width: 50%;
+    height: 180px;
+    background-color: darkslategray;
+    float: left;
+}
+.tileComponent1 > img{
+    width: 50%;
+    height: 180px;
+    font-family: bold;
+    /* position: absolute; */
+}
+
+.tileComponent2{
+    width: 45%;
+    margin-top: 14%;
+    margin-left: 17;
+    /* margin-top: 5%; */
+    /* background-color: rgb(38 207 132 / 56%); */
+    float: left;
+}
+
+.componentHeading{
+    color:darkblue;
+    font-size: 30px;
+}
+
+.componentSubHeading{
+    color:rgb(59, 146, 47);
+    font-size: 20px;
+}
+
+/*footer */
+#footer{
+    height: 150px;
+    width: 100%;
+    border: 2px solid black;
+    /* background-color: ; */
+    background-color: rgb(122 105 90);;
+}
+#footText{
+    text-align: center;
+    width: 100%;
+    font-size: 23px;
+    font-family: bold;
+    /* height: 10p; */
+}
+
+.footdiv{
+    height: 80px ;
+    width: 33%;
+    float: left;
+    border-right: 1px solid black;
+    text-align: center;
+    /* font-family: Arial; */
+    font-family: Georgia;
+    font-size: 20px;
+    
+}
+
+.noborder{
+    border: none;
+
+}

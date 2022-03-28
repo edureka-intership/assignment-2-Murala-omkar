@@ -1,0 +1,22 @@
+body{
+    margin: auto;
+}
+
+#header{
+    height:60px;
+    /* width:100% */
+    border: 2px solid red;
+}
+#search{
+    height:60px;
+    width:100%
+    
+}
+#quicksearch{
+    height:60px;
+    width:100%
+}
+#footer{
+    height:60px;
+    width:100%
+}

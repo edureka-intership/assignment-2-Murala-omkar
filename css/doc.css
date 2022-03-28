@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    background: linear-gradient(270deg, transparent, red);
+    
+}
+.img{
+    height: 390px;
+    width: 100%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    margin-top: 6%;
+    /* border: 2px solid red; */
+}
+.TopicImg{
+    width: 100%;
+    height: 390px;
+
+}
+/* .frontpage{
+    font-family: Arial;
+    font-size: 1.2em;
+    text-align: justify;
+}
+p{
+    color: white;
+    /* background: linear-gradient(270deg, transparent, red); */
+    
+/* }
+span{
+    color: white;
+} */ 
+.frontpage{
+    /* border: 2px solid red; */
+    width: 60%;
+    height: 1500px;
+    margin-top: 6%;
+    color: white;
+    text-align: justify;
+}
+.frontpage>h1{
+    background: linear-gradient(270deg, transparent, blue);
+}
+.frontpage>p{
+    padding: 10%;
+    font-size: 2em;
+}
+ /* .mainPage>span{
+    color: white;
+    margin-bottom: 10%;
+    font-size: 1em;
+
+}  */

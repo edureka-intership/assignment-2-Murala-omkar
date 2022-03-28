@@ -1,0 +1,137 @@
+<!-- <html>
+    <head>
+        <title>hii buddy</title>
+    </head>
+    <body>
+        <img src="Assets/images/My Personal profile_files/bulb_PNG1254.png" width="20%" height="150px" id="img">
+
+        <input type="button" value="off" onclick="calloff('bulb_PNG1254')">
+        <input type="button" value="on" onclick="callon('light-bulb-png-bulb-png1247-12')">
+        <script>
+            function calloff(type)
+            {
+                document.getElementById('img').src='Assets/images/My Personal profile_files/bulb_PNG1254.png';
+            }
+            function callon(type)
+            {
+                document.getElementById('img').src='Assets/images/My Personal profile_files/light-bulb-png-bulb-png1247-12.png';
+            }
+        </script>
+    </body>
+</html> -->
+
+
+<html lang="en">
+    <head>
+        <title> Home Page </title>
+        <link href="stylesheet.css" rel="stylesheet">
+        <link href="icon.jpg" rel="icon">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body> 
+        <!-- header -->
+        <div id="header">
+            <div id="icon">  
+                <h1>Z-Mato</h1>
+            </div>
+            <div id="social">
+                <a href="https://instagram.com" target="blank"> 
+                    <img src="instaicon.png" alt="instagram" class="slogo">
+                    <img src="fbicon.png" alt="fb" class="slogo">
+                </a>
+            </div>
+        </div>
+        <!-- navbar -->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#knavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#" class="navbar-brand"> Karan's Zomato </a>
+                </div>
+                <div class="collapse navbar-collapse" id="knavbar">
+                    <ul class="nav navbar-nav">
+                        <li class="active"> <a href="#"> Home </a> </li>
+                        <li> <a href="#search"> Search </a> </li>
+                        <li> <a href="#quicksearch"> Quick Search </a> </li>
+                        <li> <a href="#footer"> Contact Us </a> </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li> <a href="#"> <span class="glyphicon glyphicon-user"></span> Register </a> </li>
+                        <li> <a href="#"> <span class="glyphicon glyphicon-log-in"></span> Login </a> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>  
+        <!-- search -->
+        <div class="jumbotron text-center" id="search">
+            <div id="logo">
+                <span> K! </span>
+            </div>
+            <div id="heading"> Find the Best Restaurants Near You 
+            </div>
+            <div class="dropdown">
+                <select>
+                    <option>Select Your City </option>
+                    <option>Ahmedabad </option>
+                    <option>Rajkot </option>
+                    <option>Gondal </option>
+                </select>
+                <select class="restselect"> 
+                    <option>Select Your Restaurants </option>
+                    <option> Hyatt Restaurant</option>
+                    <option> Dominos </option>
+                    <option> Suboway </option>
+                    <option> Radisson Blue </option>
+                    <option> La Pinoz </option>
+                    <option> Castle Italiano </option>
+                    <option> Sugar and Spice </option>
+                </select>
+            </div>
+        <!-- quick serch  -->
+        </div>
+        <div class="container-fluid" id="quicksearch">
+            <span id="quickheading"> Quick Search </span>
+            <span id="quicksubheading"> Discover Restaurants by Meals </span>
+                <div class="tilecontainer col-lg-4 col-md-6 col-sm-6 col-xs-12" id="breakfast">
+                    <div class="tilecomponent1"> <img class="foodimageused" src="tiles/breakfast.jpg" alt="Delicious Breakfast"> </div>
+                    <div class="tilecomponent2"> <p class="pheading"> <a href="../listing page assignment/index.html"> Breakfast </a> </p> <p class="pdescription"> Delicious Breakfast with nutrients </p>  </div>
+                </div>
+                <div class="tilecontainer col-lg-4 col-md-6 col-sm-6 col-xs-12" id="lunch">
+                    <div class="tilecomponent1"> <img class="foodimageused" src="tiles/lunch.jpg" alt="Delicious Unlimited Lunch"> </div>
+                    <div class="tilecomponent2"> <p class="pheading"> <a href="../listing page assignment/index.html">Lunch</a> </p> <p class="pdescription"> Delicious Lunch with nutrients </p>  </div>
+                </div>
+                <div class="tilecontainer col-lg-4 col-md-6 col-sm-6 col-xs-12" id="dinner">
+                    <div class="tilecomponent1"> <img class="foodimageused" src="tiles/dinner.jpg" alt="Delicious Dinner"> </div>
+                    <div class="tilecomponent2"> <p class="pheading"> <a href="../listing page assignment/index.html">Dinner </a> </p> <p class="pdescription"> Delicious Dinner with nutrients </p>  </div>
+                </div>
+                <div class="tilecontainer col-lg-4 col-md-6 col-sm-6 col-xs-12" id="snacks">
+                    <div class="tilecomponent1"> <img class="foodimageused" src="tiles/snacks.jpg" alt="Lighweight Snack for brunch"> </div>
+                    <div class="tilecomponent2"> <p class="pheading"> <a href="../listing page assignment/index.html"> Snacks </a>  </p> <p class="pdescription"> Delicious Snacks with nutrients </p>  </div>
+                </div>
+                <div class="tilecontainer col-lg-4 col-md-6 col-sm-6 col-xs-12" id="dietfood">
+                    <div class="tilecomponent1"> <img class="foodimageused" src="tiles/diet food.jpg" alt="Healthy Diet Food"> </div>
+                    <div class="tilecomponent2"> <p class="pheading"> <a href="../listing page assignment/index.html"> Diet Food </a>   </p> <p class="pdescription"> Delicious Diet Food with nutrients </p>  </div>
+                </div>
+                <div class="tilecontainer col-lg-4 col-md-6 col-sm-6 col-xs-12" id="nightlife">
+                    <div class="tilecomponent1"> <img class="foodimageused" src="tiles/nightlife.jpg" alt="Fast Food with Spicy yet Subtle Flavours"> </div>
+                    <div class="tilecomponent2"> <p class="pheading"> <a href="../listing page assignment/index.html"> Nightlife </a>  </p> <p class="pdescription"> Best Nighlife Restaurants with Delicious Food and Drinks </p>  </div>
+                </div>
+        </div>
+        <!-- footer -->
+        <div id="footer">
+            <div id="foottext"> &copy; Karan Developer </div> <hr>
+            <div class="footerdiv"> <p>Contact Us</p> <p>About Us</p> </div>
+            <div class="footerdiv"> <p>Contact Us</p> <p>About Us</p> </div>
+            <div class="footerdiv noborder"> <p>Contact Us</p> <p>About Us</p> </div>
+        </div>
+
+    </body>
+</html>
